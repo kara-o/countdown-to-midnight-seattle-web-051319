@@ -12,7 +12,7 @@ end
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/countdown-to-midnight' title='Countdown to Midnight'>Countdown to Midnight</a> on Learn.co and start learning to code for free.</p>
 =end
 
-def countdown_with_sleep
+def countdown_with_sleep(num)
   while num > 0 do 
     puts "#{num} SECOND(S)!"
     num -= 1 
